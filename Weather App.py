@@ -32,17 +32,10 @@ name_label = Label(win,text="Accurate Weather App",fg = "darkblue",bg="lightpink
 name_label.place(x=25,y=50,height=50,width=450)
 
 City_name = StringVar()
-# list_name = ["Andhra Pradesh","Arunachal Pradesh ","Assam","Bihar","Chhattisgarh",
-# "Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Madhya Pradesh","Maharashtra",
-# "Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh",
-# "Uttarakhand","West Bengal","Andaman and Nicobar Islands","Chandigarh","Dadra and Nagar Haveli","Daman and Diu","Lakshadweep",
-# "National Capital Territory of Delhi","Puducherry"]
+
 
 com = ttk.Combobox(win,font=("Times New Roman",15,"bold"),values = cities,textvariable=City_name)
 com.place(x=25,y=120,height=50,width=450)
-
-# com = ttk.Combobox(win,font=("Times New Roman",15,"bold"),textvariable=City_name)
-# com.place(x=25,y=150,height=50,width=450)
 
 w_label = Label(win,text="Weather Climate",fg = "darkblue",bg="lightpink",font=("Tmes New Roman",15))
 w_label.place(x=25,y=250,height=30,width=160)
